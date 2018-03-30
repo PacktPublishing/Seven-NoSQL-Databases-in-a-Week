@@ -1,0 +1,2 @@
+tar -zxvf apache-cassandra-3.10-bin.tar.gz
+

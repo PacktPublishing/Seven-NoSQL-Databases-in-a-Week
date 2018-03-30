@@ -1,0 +1,4 @@
+ //SET new value packt:welcome   System.out.println(
+      "Writing \"" + newMessage + "\" to Redis...");
+    conn.set(key,newMessage);
+

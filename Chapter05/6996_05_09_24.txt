@@ -1,0 +1,7 @@
+rows = session.execute(strCQL)
+print("Hello world from:")
+for row in rows:
+  print(row[0] + " " + row[1] + " " + row[2] + " " + row[3])
+
+#closing Cassandra connection
+session.shutdown()

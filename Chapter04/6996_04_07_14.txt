@@ -1,0 +1,4 @@
+127.0.0.1:6379> unsubscribe
+1) "unsubscribe"
+2) (nil)
+3) (integer) 0

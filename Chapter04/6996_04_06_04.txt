@@ -1,0 +1,4 @@
+sudo mkdir /local
+sudo chown $USER:$USER /local
+cd /local
+mv ~/Downloads/redis-4.0.8.tar.gz . 

@@ -1,0 +1,21 @@
+/*
+  create index on user_profiles field firstName
+*/
+db.user_profiles.createIndex({  "firstName" : 1 });
+
+
+/*
+  inserting documents in review collection
+*/
+
+db.reviews.insertMany([{"comments":"movie is nice", "subject":"comedy"},
+{"comments":"fiction movie", "subject":"fiction"}]);
+
+
+/*
+  creating multikey index on review collection
+*/
+db.reviews.createIndex({
+	"comments" : "text",
+	"subject" : "text"
+});

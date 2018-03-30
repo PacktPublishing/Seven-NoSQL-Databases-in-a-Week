@@ -1,0 +1,14 @@
+    ls -al
+    total 52
+    drwxrwxr-x 2 aploetz aploetz 4096 Sep  9 14:49 .
+    drwxrwxr-x 3 aploetz aploetz 4096 Sep  9 14:49 ..
+    -rw-rw-r-- 1 aploetz aploetz   31 Sep  9 14:49 manifest.json
+    -rw-rw-r-- 2 aploetz aploetz   43 Jun 10 10:53 mc-1-big-CompressionInfo.db
+    -rw-rw-r-- 2 aploetz aploetz  264 Jun 10 10:53 mc-1-big-Data.db
+    -rw-rw-r-- 2 aploetz aploetz    9 Jun 10 10:53 mc-1-big-Digest.crc32
+    -rw-rw-r-- 2 aploetz aploetz   16 Jun 10 10:53 mc-1-big-Filter.db
+    -rw-rw-r-- 2 aploetz aploetz   11 Jun 10 10:53 mc-1-big-Index.db
+    -rw-rw-r-- 2 aploetz aploetz 4722 Jun 10 10:53 mc-1-big-Statistics.db
+    -rw-rw-r-- 2 aploetz aploetz   65 Jun 10 10:53 mc-1-big-Summary.db
+    -rw-rw-r-- 2 aploetz aploetz   92 Jun 10 10:53 mc-1-big-TOC.txt
+    -rw-rw-r-- 1 aploetz aploetz  947 Sep  9 14:49 schema.cql

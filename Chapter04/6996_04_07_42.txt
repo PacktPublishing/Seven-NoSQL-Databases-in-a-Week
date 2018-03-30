@@ -1,0 +1,8 @@
+def addNewLogin(user,ipaddress):
+
+    print("Logging entry for " + user + " from " + ipaddress)
+
+    time = str(datetime.now())
+
+    r.lpush('packt:logins',user + " " + ipaddress + " " + time)
+

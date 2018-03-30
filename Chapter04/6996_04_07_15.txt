@@ -1,0 +1,2 @@
+127.0.0.1:6379> EVAL 'local text="Hello world!" return text' 0
+"Hello world!"

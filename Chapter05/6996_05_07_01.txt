@@ -1,0 +1,7 @@
++UseG1GC
+-Xms=20GB
+-Xmx=20GB
+G1RSetUpdatingPauseTimePercent=5
+InitiatingHeapOccupancyPercent=25
+G1HeapRegionSize=32m
+MaxGCPauseMillis=500

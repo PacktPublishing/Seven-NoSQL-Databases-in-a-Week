@@ -1,0 +1,11 @@
+public ResultSet query(BoundStatement bStatement) { 
+  return session.execute(bStatement); 
+} 
+    
+public void insert(BoundStatement bStatement) { 
+  session.execute(bStatement); 
+} 
+    
+public Session getSession() { 
+  return session; 
+}

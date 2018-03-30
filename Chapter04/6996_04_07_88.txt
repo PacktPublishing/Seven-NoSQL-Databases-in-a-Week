@@ -1,0 +1,4 @@
+grep appendonly /etc/redis/6379.conf
+appendonly no
+# The name of the append only file (default: "appendonly.aof")
+appendfilename "appendonly.aof"

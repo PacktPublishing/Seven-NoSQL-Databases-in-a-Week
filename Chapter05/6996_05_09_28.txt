@@ -1,0 +1,6 @@
+strINSERT = """
+INSERT INTO logins_by_user (user_id,login_datetime,origin_ip)
+VALUES (?,dateof(now()),?)
+"""
+pINSERTStatement = session.prepare(strINSERT);
+session.execute(pINSERTStatement,['aploetz','192.168.0.114'])

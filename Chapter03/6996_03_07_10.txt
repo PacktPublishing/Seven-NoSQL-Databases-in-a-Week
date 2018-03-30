@@ -1,0 +1,4 @@
+MATCH (m:Message),(c:Language)
+WHERE m.title = 'Welcome' AND c.name = 'Cypher'
+CREATE (m)-[:ACCESSED_FROM]->(c);
+

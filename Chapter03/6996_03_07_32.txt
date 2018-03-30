@@ -1,0 +1,6 @@
+  public void connect(String node, String user, String pwd) {
+    driver = GraphDatabase.driver( "bolt://"
+      + node + ":7687", AuthTokens.basic( user, pwd ) );
+    session = driver.session();
+  }
+

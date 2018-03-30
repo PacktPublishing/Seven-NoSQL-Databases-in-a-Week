@@ -1,0 +1,1 @@
+cassdba@cqlsh:packt> truncate table packt.logins_by_user;

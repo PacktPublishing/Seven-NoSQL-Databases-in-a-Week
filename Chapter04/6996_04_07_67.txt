@@ -1,0 +1,4 @@
+    public String getSet(String strKey, String strValue) {
+    	 return redisConn.getSet(strKey, strValue);
+    }
+

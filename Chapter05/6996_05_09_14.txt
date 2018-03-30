@@ -1,0 +1,3 @@
+﻿CREATE KEYSPACE packt WITH replication = {
+  'class':'NetworkTopologyStrategy', 'LakesidePark':'1'}
+  AND durable_writes = true;

@@ -1,0 +1,13 @@
+python redisHelloWorld.py 127.0.0.1
+currentHorseBatteryStaple
+
+Displaying current welcome message...
+
+message = Hello world!
+
+Writing "Hello world from Python!" to Redis...
+
+Displaying current welcome message...
+
+message = Hello world from Python!
+

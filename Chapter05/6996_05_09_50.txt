@@ -1,0 +1,9 @@
+    cd /var/lib/cassandra/data/packt
+    ls -al
+    total 20
+    drwxrwxr-x  5 aploetz aploetz 4096 Jul 18 09:23 .
+    drwxr-xr-x 18 aploetz aploetz 4096 Jun 10 09:06 ..
+    drwxrwxr-x  3 aploetz aploetz 4096 Jul 18 14:05 astronauts-b27b5a406bc411e7b609c123c0f29bf4
+    drwxrwxr-x  3 aploetz aploetz 4096 Jul 18 14:05 astronauts_by_group-b2c163f06bc411e7b609c123c0f29bf4
+    drwxrwxr-x  4 aploetz aploetz 4096 Sep  9 14:51 logins_by_user-fdd9fa204de511e7a2e6f3d179351473
+  

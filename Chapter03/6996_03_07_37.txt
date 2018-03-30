@@ -1,0 +1,6 @@
+    String createRelationship = "MATCH (m:Message),(l:Language) "
+      + "WHERE m.title = {title} AND l.name={language} "
+      + "CREATE (m)-[:ACCESSED_FROM]->(l);";
+    session.run(createRelationship,
+      parameters("title", "Welcome", "language", "Java"));
+

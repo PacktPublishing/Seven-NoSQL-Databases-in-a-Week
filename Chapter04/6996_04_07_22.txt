@@ -1,0 +1,3 @@
+src/redis-cli -a currentHorseBatteryStaple --eval welcomeName.lua
+packt:welcome , Coriene
+"Dear Coriene, Hello world from Lua!"

@@ -1,0 +1,5 @@
+dbms.memory.heap.max_size=24G
+dbms.memory.heap.initial_size=24G
+dbms.jvm.additional=-XX:+UseG1GC
+dbms.jvm.additional=-XX:MaxGCPauseMillis=200
+

@@ -1,0 +1,6 @@
+public class Neo4jISS53 {
+  public static void main(String[] args) {
+    Neo4jConnection conn = new
+      Neo4jConnection("192.168.0.100","neodba","flynnLives");
+    Session session = conn.getSession();
+

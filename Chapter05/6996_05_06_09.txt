@@ -1,0 +1,2 @@
+mv apache-cassandra-3.10/ cassandra
+

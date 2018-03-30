@@ -1,0 +1,8 @@
+def setPacktWelcome():
+
+    #SET new value packt:welcome
+
+    print("Writing \"Hello world from Python!\" to Redis...")
+
+    r.set('packt:welcome','Hello world from Python!')
+

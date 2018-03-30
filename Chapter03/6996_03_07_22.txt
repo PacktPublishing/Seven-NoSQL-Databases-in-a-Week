@@ -1,0 +1,8 @@
+queryRelationship = """MATCH (m:Message)-[:ACCESSED_FROM]->
+  (l:Language {name:'Python'})
+  RETURN m,l;"""
+resultSet = session.run(queryRelationship)
+
+for result in resultSet:
+  print("%s from %s" % (result["m"]["text"], result["l"]["name"]))
+

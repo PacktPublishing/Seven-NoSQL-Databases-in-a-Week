@@ -1,0 +1,11 @@
+from neo4j.v1 import GraphDatabase, basic_auth
+import sys
+
+hostname=sys.argv[1]
+username=sys.argv[2]
+password=sys.argv[3]
+
+driver = GraphDatabase.driver("bolt://" + hostname + ":7687",
+  auth=basic_auth(username,password))
+session = driver.session()
+

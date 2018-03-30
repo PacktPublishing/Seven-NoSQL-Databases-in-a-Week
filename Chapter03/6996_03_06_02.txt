@@ -1,0 +1,1 @@
+tar -zxvf neo4j-community-3.3.3-unix.tar.gz

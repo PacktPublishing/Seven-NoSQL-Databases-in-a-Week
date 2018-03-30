@@ -1,0 +1,14 @@
+127.0.0.1:6379> zrevrange games:joust 0 -1 WITHSCORES
+
+1) "Dad"
+
+2) "58150"
+
+3) "Connor"
+
+4) "48850"
+
+5) "Toria"
+
+6) "29910"
+

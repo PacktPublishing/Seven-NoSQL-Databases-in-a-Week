@@ -1,0 +1,4 @@
+Name: PermanentWaves
+Snitch: org.apache.cassandra.locator.DynamicEndpointSnitch
+Partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+Schema versions: 22a8db59-e998-3848-bfee-a07feedae0d8: [192.168.0.100,192.168.0.101,192.168.0.102]

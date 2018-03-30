@@ -1,0 +1,1 @@
+mv neo4j-community-3.3.3/ neo4j/

@@ -1,0 +1,1 @@
+nodetool assassinate 192.168.0.102

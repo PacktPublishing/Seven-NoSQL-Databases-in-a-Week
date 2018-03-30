@@ -1,0 +1,5 @@
+ls -al /var/lib/redis/6379/
+total 12
+drwxr-xr-x 2 root root 4096 Aug 3 15:02 .
+drwxr-xr-x 3 root root 4096 Jun 18 19:38 ..
+-rw-r--r-- 1 root root 394 Aug 3 15:02 dump.rdb

@@ -1,0 +1,4 @@
+cassandra@cqlsh> CREATE ROLE cassdba
+  WITH PASSWORD='flynnLives' AND SUPERUSER=true AND LOGIN=true;
+cassandra@cqlsh> ALTER ROLE cassandra 
+  WITH PASSWORD='2f394084e98a4bec92405f73e2e634ea';

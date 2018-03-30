@@ -1,0 +1,12 @@
+Connected to Redis
+
+Displaying current welcome message...
+
+Hello world from Python!
+
+Writing "Hello world from Java!" to Redis...
+
+Displaying the new welcome message...
+
+Hello world from Java!
+

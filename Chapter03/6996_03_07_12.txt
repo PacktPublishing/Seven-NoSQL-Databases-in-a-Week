@@ -1,0 +1,4 @@
+python neoCmdFile.py 192.168.0.100 neo4j flynnLives astronaut_data.neo
+
+Data from astronaut_data.neo loaded!
+

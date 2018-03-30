@@ -1,0 +1,3 @@
+    nodetool snapshot packt.logins_by_user
+    Requested creating snapshot(s) for [packt.logins_by_user] with snapshot name [1504986577085] and options {skipFlush=false}
+    Snapshot directory: 1504986577085 

@@ -1,0 +1,5 @@
+hostname=sys.argv[1]
+username=sys.argv[2]
+password=sys.argv[3]
+nodes = []
+nodes.append(hostname)

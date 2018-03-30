@@ -1,0 +1,12 @@
+python redisPub.py 127.0.0.1 currentHorseBatteryStaple OMG15UBaseball
+Describe play; [Enter] to quit: Henry strikes out swinging (Out 1).
+Describe play; [Enter] to quit: Avery singles to RF.
+Describe play; [Enter] to quit: Avery steals 2b.
+Describe play; [Enter] to quit: Gareth doubles to LF, Avery scores.
+Describe play; [Enter] to quit: Gareth steals 3b.
+Describe play; [Enter] to quit: Leighton grounds out to SS, Gareth scores
+(Out 2).
+Describe play; [Enter] to quit: Aaron grounds out to SS (Out 3).
+Describe play; [Enter] to quit: END
+Describe play; [Enter] to quit:
+Publish program ended.

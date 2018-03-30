@@ -1,0 +1,6 @@
+getPacktWelcome()
+
+setPacktWelcome()
+
+getPacktWelcome()
+

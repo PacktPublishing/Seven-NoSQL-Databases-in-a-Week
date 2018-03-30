@@ -1,0 +1,7 @@
+while True:
+ message=raw_input("Describe play, or press [Enter] to quit: ")
+ if not message:
+ break
+ else:
+ r.publish(channel,message)
+print "Publish program ended. "

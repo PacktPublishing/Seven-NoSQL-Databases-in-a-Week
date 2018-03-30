@@ -1,0 +1,3 @@
+auth = PlainTextAuthProvider(username=username, password=password)
+cluster = Cluster(nodes,auth_provider=auth)
+session = cluster.connect(keyspace)

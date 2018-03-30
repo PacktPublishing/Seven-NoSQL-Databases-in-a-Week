@@ -1,0 +1,6 @@
+  public void close() {
+    session.close();
+    driver.close();
+  }
+}
+

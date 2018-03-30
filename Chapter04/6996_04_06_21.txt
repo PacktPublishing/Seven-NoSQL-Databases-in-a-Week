@@ -1,0 +1,16 @@
+src/redis-cli
+ 
+127.0.0.1:6379> ping
+
+(error) NOAUTH Authentication required.
+
+127.0.0.1:6379> auth currentHorseBatteryStaple
+
+OK
+
+127.0.0.1:6379> ping
+
+PONG
+
+127.0.0.1:6379> exit
+

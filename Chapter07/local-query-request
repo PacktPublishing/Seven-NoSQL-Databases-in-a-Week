@@ -1,0 +1,101 @@
+// list tables
+var params = {
+    Limit: 100, 
+};
+dynamodb.listTables(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+
+var params = {
+TableName: 'person',
+KeySchema: [ 
+    { 
+        AttributeName: 'PersonID',
+        KeyType: 'HASH' 
+    },
+],
+AttributeDefinitions: [ 
+    {
+        AttributeName: 'PersonID',
+        AttributeType: 'N', 
+    }
+],
+ProvisionedThroughput: { 
+    ReadCapacityUnits: 10, 
+    WriteCapacityUnits: 10, 
+},
+};
+dynamodb.createTable(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+// put item
+var params = {
+    TableName: 'person',
+    Item: { 
+        PersonID: 101,
+        FirstName : "John",
+        LastName : "Smith",
+        Age : 27,
+        Email : "john.smith@co.in"
+    }
+};
+docClient.put(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+// get item
+
+var params = {
+    TableName: 'person',
+    Key: { 
+        PersonID: 101 
+    },
+};
+docClient.get(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+// scan
+var params = {
+    TableName: 'person',
+    Select: 'ALL_ATTRIBUTES'
+};
+dynamodb.scan(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+// update
+
+var params = {
+    TableName: 'person',
+    Key: {
+        PersonID: 101, 
+    },
+    UpdateExpression: 'SET Age= :age', 
+    ExpressionAttributeValues:{
+        ":age":32,
+    },
+};
+docClient.update(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});
+
+// delete
+var params = {
+    TableName: 'person',
+    Key: { 
+        PersonID: 101,
+      },
+};
+docClient.delete(params, function(err, data) {
+    if (err) ppJson(err); 
+    else ppJson(data); 
+});

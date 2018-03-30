@@ -1,0 +1,3 @@
+dbms.directories.data=/data0
+dbms.directories.logs=/var/log/neo4j
+

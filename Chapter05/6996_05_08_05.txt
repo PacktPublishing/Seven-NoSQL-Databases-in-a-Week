@@ -1,0 +1,2 @@
+nodetool disablegossip
+nodetool drain

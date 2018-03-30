@@ -1,0 +1,4 @@
+addNewLogin(userid,ip)
+
+getList()
+

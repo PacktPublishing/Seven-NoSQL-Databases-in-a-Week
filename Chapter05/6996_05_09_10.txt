@@ -1,0 +1,2 @@
+cqlsh 192.168.0.100 -u cassandra -p cassandra
+

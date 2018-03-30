@@ -1,0 +1,6 @@
+    String queryRelationship = "MATCH (m:Message)-[:ACCESSED_FROM]->"
+      + "(l:Language {name:{language}}) "
+      + "RETURN m.title,l.name;";
+    StatementResult resultSet = session.run(queryRelationship,
+      parameters("language", "Java"));
+

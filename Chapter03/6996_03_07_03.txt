@@ -1,0 +1,2 @@
+tail -f /local/neo4j/log/neo4j.log
+

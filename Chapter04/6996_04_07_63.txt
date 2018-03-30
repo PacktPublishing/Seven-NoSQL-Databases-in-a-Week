@@ -1,0 +1,5 @@
+//GET value stored in packt:welcome    System.out.println(
+      "Displaying current welcome message...");
+    String message = conn.get("packt:welcome");
+    System.out.println(message);
+

@@ -1,0 +1,13 @@
+   cassdba@cqlsh:packt> SELECT name, alma_mater, birthplace FROM astronauts_by_group WHERE group=1;
+    
+     name                   | alma_mater                        | birthplace
+    ------------------------+-----------------------------------+----------------
+        Alan B. Shepard Jr. |                  US Naval Academy | East Derry, NH
+          Donald K. Slayton |           University of Minnesota |     Sparta, WI
+          John H. Glenn Jr. |                 Muskingum College |  Cambridge, OH
+       L. Gordon Cooper Jr. | Air Force Institute of Technology |    Shawnee, OK
+         M. Scott Carpenter |            University of Colorado |    Boulder, CO
+          Virgil I. Grissom |                 Purdue University |   Mitchell, IN
+      Walter M. Schirra Jr. |                  US Naval Academy | Hackensack, NJ
+    
+    (7 rows)

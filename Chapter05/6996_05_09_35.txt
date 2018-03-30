@@ -1,0 +1,7 @@
+  public void connect(String node, String user, String pwd) { 
+    cluster = Cluster.builder() 
+      .addContactPoint(node) 
+      .withCredentials(user,pwd) 
+      .build(); 
+    session = cluster.connect(); 
+  } 

@@ -1,0 +1,7 @@
+  public RedisConnection() {	
+  }
+	
+  public RedisConnection(String node, String pwd) {
+    connect(node,pwd);
+  }
+

@@ -1,0 +1,7 @@
+$ nodetool status
+Datacenter: LakesidePark
+========================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+-- Address        Load       Tokens  Owns    Host ID                          Rack
+UJ 192.168.0.101  83.99 MiB  16      100.0%  fd352577-6be5-4d93-8251-15a74... r40

@@ -1,0 +1,17 @@
+Active database: graph.db
+Directories in use:
+  home:         /local/neo4j
+  config:       /local/neo4j/conf
+  logs:         /local/neo4j/logs
+  plugins:      /local/neo4j/plugins
+  import:       /local/neo4j/import
+  data:         /local/neo4j/data
+  certificates: /local/neo4j/certificates
+  run:          /local/neo4j/run
+Starting Neo4j.
+2017-07-09 17:10:05.300+0000 INFO  ======== Neo4j 3.2.2 ========
+2017-07-09 17:10:05.342+0000 INFO  Starting...
+2017-07-09 17:10:06.464+0000 INFO  Bolt enabled on 192.168.0.100:7687.
+2017-07-09 17:10:09.576+0000 INFO  Started.
+2017-07-09 17:10:10.982+0000 INFO  Remote interface available at http://192.168.0.100:7474/
+

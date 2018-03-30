@@ -1,0 +1,6 @@
+def getList():
+
+    list = r.lrange('packt:logins',0,-1)
+
+    print(list)
+

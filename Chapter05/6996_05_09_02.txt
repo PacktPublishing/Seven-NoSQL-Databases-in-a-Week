@@ -1,0 +1,17 @@
+$ nodetool info 
+ 
+ID                     :71700e62-2e28-4974-93e1-a2ad3f8a38c1 
+Gossip active          : true 
+Thrift active          : false 
+Native Transport active: true 
+Load                   :84.15MiB 
+Generation No          : 1505483850 
+Uptime (seconds)       : 40776 
+Heap Memory (MB)       : 422.87 / 4016.00 
+Off Heap Memory (MB)   : 0.00 
+Data Center            :LakesidePark 
+Rack                   :r40 
+Exceptions             : 0 
+Key Cache              : entries 24, size 2.02 KiB, capacity 100 MiB, 210 hits, 239 requests, 0.879 recent hit rate, 14400 save period in seconds 
+Row Cache              : entries 0, size 0 bytes, capacity 0 bytes, 0 hits, 0 requests, NaN recent hit rate, 0 save period in seconds 
+Counter Cache          : entries 0, size 0 bytes, capacity 50 MiB, 0

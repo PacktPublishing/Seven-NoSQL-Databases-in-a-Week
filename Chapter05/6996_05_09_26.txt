@@ -1,0 +1,9 @@
+from cassandra.cluster import Cluster
+from cassandra.auth import PlainTextAuthProvider
+import sys
+hostname = sys.argv[1]
+username = sys.argv[2]
+password = sys.argv[3]
+userid = sys.argv[4]
+nodes = []
+nodes.append(hostname)

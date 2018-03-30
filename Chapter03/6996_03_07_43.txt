@@ -1,0 +1,12 @@
+      String createRelationship = "MATCH (m:Mission),(a:Astronaut) "
+        + "WHERE m.name={mname} AND a.name={aname} "
+        + "CREATE (a)-[:FLEW_ON]->(m)";
+      session.run(createRelationship,
+        parameters("mname","ISS-52/53 (Soyuz)",
+        "aname","Joseph M. Acaba"));
+      session.run(createRelationship,
+        parameters("mname","ISS-52/53 (Soyuz)",
+        "aname","Mark T. VandeHei"));
+      session.run(createRelationship,
+        parameters("mname","ISS-52/53 (Soyuz)",
+        "aname","Randolph J. Bresnik"));

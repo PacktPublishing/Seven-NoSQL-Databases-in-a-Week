@@ -1,0 +1,5 @@
+createRelationship = """MATCH (m:Message),(l:Language)
+  WHERE m.title = 'Welcome' AND l.name='Python'
+  CREATE (m)-[:ACCESSED_FROM]->(l);"""
+session.run(createRelationship)
+

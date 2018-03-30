@@ -1,0 +1,10 @@
+import org.neo4j.driver.v1.Session;
+import org.neo4j.driver.v1.StatementResult;
+import org.neo4j.driver.v1.Record;
+import static org.neo4j.driver.v1.Values.parameters;
+
+public class Neo4jHelloWorld {
+  public static void main(String[] args) {
+    Neo4jConnection conn = new Neo4jConnection(
+      "192.168.0.100","neodba","flynnLives");
+    Session session = conn.getSession();

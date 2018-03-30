@@ -1,0 +1,3 @@
+    session.run( "CREATE (:Language {name:{name},version:{ver}})",
+      parameters("name", "Java", "ver", "1.8.0_74"));
+

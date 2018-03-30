@@ -1,0 +1,7 @@
+String strINSERT = "INSERT INTO packt.logins_by_user " 
+    + "(user_id,login_datetime,origin_ip) " 
+    + "VALUES (?,dateof(now()),?)";           
+PreparedStatement pIStatement = session.prepare(strINSERT); 
+BoundStatement bIStatement = new BoundStatement(pIStatement); 
+bIStatement.bind(userID, "192.168.0.119"); 
+conn.insert(bIStatement); 

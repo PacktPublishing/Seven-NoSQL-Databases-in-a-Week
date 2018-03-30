@@ -1,0 +1,6 @@
+python redisQueryUser.py 127.0.0.1 currentHorseBatteryStaple aploetz 10.0.0.6
+
+Logging entry for aploetz from 10.0.0.6
+
+['aploetz 10.0.0.6 2017-06-24 16:43:29.228135', 'aploetz 10.0.0.4 2017-06-24 16:31:58.171875', 'aploetz 10.0.0.4 2017-06-24 16:22:04.144998']
+

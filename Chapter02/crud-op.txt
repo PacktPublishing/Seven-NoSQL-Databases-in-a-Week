@@ -1,0 +1,139 @@
+/*
+  create and switch to sample_db
+*/
+
+use sample_db;
+
+/*
+  list all the databases in the system
+*/
+show databases();
+
+/*
+  create collection names users_profile
+*/
+db.createCollection("users_profile");
+
+/*
+  inserting single document in collection users_profile
+*/
+db.users_profile.insertOne({
+  userId:1,
+  firstName:"John",
+  lastName:"Richard",
+  age:26,
+  email:"john2992@mail.com"
+});
+
+/*
+  inserting multiple documents in collection users_profile
+*/
+db.users_profile.insertMany([{
+  userId:1,
+  firstName:"John",
+  lastName:"Richard",
+  age:26,
+  email:"john2992@mail.com"
+},
+{
+  userId:2,
+  firstName:"Kedar",
+  lastName:"Sans",
+  age:29,
+  email:"kedar.sans@mail.com"
+},
+{
+  userId:3,
+  firstName:"Chan",
+  lastName:"Kuli",
+  age:27,
+  email:"chan.k@mail.com"
+}]);
+/*
+  getting all the documents from users_profile collection
+*/
+db.users_profile.find({});
+/*
+  getting documents from users_profile where firstName is john
+*/
+db.users_profile.find({firstName:"John"});
+/*
+  finding all the documents where firstName is John and Kedar
+*/
+db.users_profile.find({
+    firstName:{
+            $in : ["John", "Kedar"]
+       }
+     });
+/*
+  getting users_profile where name is john and age is less than 30
+*/
+db.users_profile.find({
+    firstName:"John",
+    age :{
+        $lt : 30
+    }
+ });
+
+ /*
+  getting documents where firstName is John or age less than 30
+ */
+
+db.users_profile.find({
+        $or : [
+            { "firstName" : "John" },
+            { "age" : { $lt : 30 } }
+        ]
+    });
+
+/*
+
+*/
+db.users_profile.find({
+        "firstName" : "John",
+        $or : [
+            { "age" : { $lt : 30 } },
+            { "lastName" : /^s/ },
+        ]
+    });
+/*
+  update single document
+*/
+db.users_profile.updateOne(
+        { "userId" : 1 },
+        { $set : { "age" : 20 }}
+    );
+
+    /*
+      update multiple documents
+    */
+
+
+db.users_profile.updateMany(
+        { "age" : 20 },
+        { $set : { "age" : 35 }}
+    );
+/*
+  replace document
+*/
+
+db.users_profile.replaceOne(
+    { "userId" : 1 },
+    {
+        "userId" : 1.0,
+        "firstName" : "Sam",
+        "lastName" : "Billings",
+        "age" : 26.0,
+        "email" : "sam2992@mail.com"
+    })
+/*
+    delete single document
+*/
+db.users_profile.deleteOne({"userId":1});
+
+/*
+  delete all the documents
+*/
+
+db.users_profile.deleteMany({});
+

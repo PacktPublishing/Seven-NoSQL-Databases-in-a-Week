@@ -1,0 +1,4 @@
+    public void pushToList(String strKey, String strValue) {
+    	 redisConn.lpush(strKey, strValue);
+    }
+

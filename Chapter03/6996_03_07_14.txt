@@ -1,0 +1,2 @@
+MATCH p=()-[r:RECRUITED_IN_CLASS]->(g {group:"1"}) RETURN p;
+

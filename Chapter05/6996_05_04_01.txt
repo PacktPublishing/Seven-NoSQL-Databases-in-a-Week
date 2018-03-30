@@ -1,0 +1,7 @@
+CREATE TABLE packt.logins_by_user (
+    user_id text,
+    login_datetime timestamp,
+    origin_ip textlogin_datetime,
+    PRIMARY KEY ((user_id), login_datetime)
+) WITH CLUSTERING ORDER BY (login_datetime DESC);
+

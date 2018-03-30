@@ -1,0 +1,2 @@
+bin/neo4j stop
+bin/neo4j-admin load --from=backups/astronaut.db-backup/2017-9-11.dump --database=graph.db -force  

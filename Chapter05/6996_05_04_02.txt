@@ -1,0 +1,5 @@
+INSERT INTO logins_by_user (user_id, login_datetime, origin_ip) VALUES ('aploetz','2017-06-01 12:36:01','192.168.0.101');
+INSERT INTO logins_by_user (user_id, login_datetime, origin_ip) VALUES ('aploetz','2017-06-01 12:53:28','192.168.0.101');
+INSERT INTO logins_by_user (user_id, login_datetime, origin_ip) VALUES ('aploetz','2017-06-02 13:23:11','192.168.0.105');
+INSERT INTO logins_by_user (user_id, login_datetime, origin_ip) VALUES ('aploetz','2017-06-03 09:04:55','192.168.0.101');
+

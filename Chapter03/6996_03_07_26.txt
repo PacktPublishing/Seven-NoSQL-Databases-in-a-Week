@@ -1,0 +1,3 @@
+createMission = "CREATE (:Mission {name:{name}});"
+session.run(createMission,{"name":"ISS-51/52 (Soyuz)"})
+

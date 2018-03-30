@@ -1,0 +1,3 @@
+mkdir /backups/astronaut.db-backup/ 
+bin/neo4j-admin dump --database=graph.db --to=/backups/astronaut.db-backup/2017-09-11.dump
+bin/neo4j start 

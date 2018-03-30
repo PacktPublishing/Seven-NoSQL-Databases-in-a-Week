@@ -1,0 +1,6 @@
+src/redis-cli -a currentHorseBatteryStaple -n 0
+127.0.0.1:6379> subscribe greeting
+Reading messages... (press Ctrl-C to quit)
+1) "subscribe"
+2) "greeting"
+3) (integer) 1

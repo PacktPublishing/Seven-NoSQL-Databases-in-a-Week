@@ -1,0 +1,4 @@
+# Bolt connector
+dbms.connector.bolt.enabled=true
+dbms.connector.bolt.listen_address=:7687
+

@@ -1,0 +1,4 @@
+MATCH (m:Mission),(a:Astronaut) WHERE m.name='ISS-53/54 (Soyuz)' AND
+  a.name='Neil A. Armstrong' CREATE (a)-[:FLEW_ON]->(m);
+MATCH (m:Mission),(a:Astronaut) WHERE m.name='ISS-53/54 (Soyuz)' AND
+  a.name='Janet L. Kavandi' CREATE (a)-[:FLEW_ON]->(m);

@@ -1,0 +1,12 @@
+      String queryRelationship = "MATCH (m:Mission {name:{name}})”
+        + "<-[:FLEW_ON]-"
+        + "(a:Astronaut) RETURN m.name,a.name;";
+      StatementResult resultSet = session.run(queryRelationship, 
+        parameters("name", "ISS-52/53 (Soyuz)"));
+
+      while (resultSet.hasNext()) {
+        Record result = resultSet.next();
+        System.out.println( result.get("a.name")
+          + " flew on " + result.get("m.name"));
+      }
+

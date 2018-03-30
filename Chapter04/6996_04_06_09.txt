@@ -1,0 +1,4 @@
+sudo apt-get update
+
+sudo apt-get install gcc make tcl build-essential
+

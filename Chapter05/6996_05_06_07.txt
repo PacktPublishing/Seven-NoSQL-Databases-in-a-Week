@@ -1,0 +1,2 @@
+curl -O https://archive.apache.org/dist/cassandra/3.10/apache-cassandra-3.10-bin.tar.gz
+

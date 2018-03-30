@@ -1,0 +1,1 @@
+cp /var/lib/redis/6379/dump.rdb /local/redis/backup/dump_20170803.rdb

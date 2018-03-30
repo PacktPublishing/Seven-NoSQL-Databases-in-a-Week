@@ -1,0 +1,1 @@
+bin/neo4j-admin restore -from=/backups/astronaut.db-backup --database=graph.db --force  

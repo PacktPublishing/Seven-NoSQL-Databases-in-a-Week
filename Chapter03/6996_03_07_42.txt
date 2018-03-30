@@ -1,0 +1,4 @@
+      String createMission = "CREATE (:Mission {name:{name}})";
+      session.run(createMission,
+        parameters("name","ISS-52/53 (Soyuz)"));
+

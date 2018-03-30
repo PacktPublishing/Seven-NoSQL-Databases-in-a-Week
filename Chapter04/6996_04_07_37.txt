@@ -1,0 +1,10 @@
+def getPacktWelcome():
+
+    #GET value stored in packt:welcome
+
+    print("Displaying current welcome message...")
+
+    value = r.get('packt:welcome')
+
+    print("message = " + str(value))
+

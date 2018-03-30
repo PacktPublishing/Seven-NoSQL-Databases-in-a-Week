@@ -1,0 +1,29 @@
+127.0.0.1:6379> zadd games:joust 48850 Connor
+
+(integer) 1
+
+127.0.0.1:6379> zadd games:joust 58150 Dad
+
+(integer) 1
+
+127.0.0.1:6379> zadd games:joust 49910 Toria
+
+(integer) 1
+
+127.0.0.1:6379> zadd games:joust 29910 Toria
+
+(integer) 0
+
+127.0.0.1:6379> zrange games:joust 0 -1 WITHSCORES
+
+1) "Toria"
+
+2) "29910"
+
+3) "Connor"
+4) "48850"
+
+5) "Dad"
+
+6) "58150"
+

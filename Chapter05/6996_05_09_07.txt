@@ -1,0 +1,8 @@
+Datacenter: LakesidePark
+========================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+-- Address        Load       Tokens  Owns    Host ID                          Rack
+UN 192.168.0.100  84.15 MiB  16     100.0%  71700e62-2e28-4974-93e1-a2ad3f... r40
+DN 192.168.0.102  83.27 MiB  16     100.0%  c3e61934-5fc1-4795-a05a-28443e... r40
+UN 192.168.0.101  83.99 MiB  16     100.0%  fd352577-6be5-4d93-8251-15a74f... r40

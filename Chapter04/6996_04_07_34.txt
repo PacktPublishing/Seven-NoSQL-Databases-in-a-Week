@@ -1,0 +1,4 @@
+hostname = sys.argv[1]
+
+password = sys.argv[2]
+

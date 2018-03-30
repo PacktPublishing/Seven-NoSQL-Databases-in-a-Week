@@ -1,0 +1,1 @@
+127.0.0.1:6379> zrevrange games:joust 0 -1 WITHSCORES

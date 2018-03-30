@@ -1,0 +1,4 @@
+    public List<String> getList(String strKey) {
+    	 return redisConn.lrange(strKey, 0, -1);
+    }
+

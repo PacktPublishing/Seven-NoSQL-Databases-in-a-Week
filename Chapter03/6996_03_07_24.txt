@@ -1,0 +1,3 @@
+python neo4jHelloWorld.py 192.168.0.100 neo4j flynnLives
+Hello world! from Python
+

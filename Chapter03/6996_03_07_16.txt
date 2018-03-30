@@ -1,0 +1,4 @@
+MATCH (s:School)<-[:EDUCATED_AT]-
+(a:Astronaut)-[:FLEW_ON]->(m:Mission {name:'Apollo 13'})
+RETURN a, m, s;
+

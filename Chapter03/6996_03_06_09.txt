@@ -1,0 +1,8 @@
+# HTTP Connector. There must be exactly one HTTP connector.
+dbms.connector.http.enabled=true
+#dbms.connector.http.listen_address=:7474
+
+# HTTPS Connector. There can be zero or one HTTPS connectors.
+dbms.connector.https.enabled=true
+#dbms.connector.https.listen_address=:7473
+

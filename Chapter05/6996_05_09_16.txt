@@ -1,0 +1,4 @@
+COPY packt.astronauts_by_group (name, year, group, status, dob, birthplace,
+  gender, alma_mater, spaceflights, spaceflight_hours, spacewalks,
+  spacewalk_hours, missions)
+  FROM '~/Documents/Packt/astronauts.csv' WITH HEADER=true;

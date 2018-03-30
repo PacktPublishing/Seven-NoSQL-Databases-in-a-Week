@@ -1,0 +1,4 @@
+hits, 0 requests, NaN recent hit rate, 7200 save period in seconds 
+Chunk Cache            : entries 19, size 1.19 MiB, capacity 480 MiB, 85 misses, 343 requests, 0.752 recent hit rate, 583.139 microseconds miss latency 
+Percent Repaired       : 100.0% 
+Token                  : (invoke with -T/--tokens to see all 16 tokens) 

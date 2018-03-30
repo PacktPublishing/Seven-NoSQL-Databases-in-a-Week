@@ -1,0 +1,10 @@
+rows = session.execute(pSELECTStatement,[userid])
+print("Data for user %s:" % userid)
+for row in rows:
+    #only one row in system.local
+    print(row[0] + " " +
+          str(row[1]) + " " +
+          row[2])
+
+#closing Cassandra connection
+session.shutdown()

@@ -1,0 +1,6 @@
+  public CassandraConnection() {  
+  } 
+    
+  public CassandraConnection(String node, String user, String pwd) { 
+    connect(node,user,pwd); 
+  } 

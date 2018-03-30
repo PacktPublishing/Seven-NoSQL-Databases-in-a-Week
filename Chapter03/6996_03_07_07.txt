@@ -1,0 +1,1 @@
+MATCH (n:Message) RETURN n LIMIT 25;

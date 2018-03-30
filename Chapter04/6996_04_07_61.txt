@@ -1,0 +1,12 @@
+  public String get(String strKey) {
+    return redisConn.get(strKey);
+  }
+
+  public void set(String strKey, String strValue) {
+    redisConn.set(strKey, strValue);
+  }
+
+  public void close() {
+    redisConn.close();
+  }
+

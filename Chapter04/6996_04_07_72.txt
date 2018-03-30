@@ -1,0 +1,7 @@
+    String key = "packt:logins";
+    String userid = System.getProperty("user.name");
+  //get ip address as the lone command line argument  String ip = args[0];
+    String strTime = new SimpleDateFormat(
+      "yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+    String value = userid + " " + ip + " " + strTime;
+

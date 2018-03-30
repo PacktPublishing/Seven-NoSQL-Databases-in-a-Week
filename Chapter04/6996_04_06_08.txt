@@ -1,0 +1,4 @@
+tar -zxvf redis-stable.tar.gz
+
+mv redis-stable/ redis
+

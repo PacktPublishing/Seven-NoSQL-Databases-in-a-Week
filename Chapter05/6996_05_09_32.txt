@@ -1,0 +1,7 @@
+<dependencies>
+  <dependency>
+    <groupId>com.datastax.cassandra</groupId>
+    <artifactId>cassandra-driver-core</artifactId>
+    <version>3.3.0</version>
+  </dependency>
+</dependencies>

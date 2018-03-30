@@ -1,0 +1,1 @@
+sudo mv /var/lib/redis/6379/dump.rdb /var/lib/redis/6379/dump_bad.rdb

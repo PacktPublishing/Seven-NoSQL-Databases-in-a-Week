@@ -1,0 +1,7 @@
+    cd logins_by_user-fdd9fa204de511e7a2e6f3d179351473/snapshots
+    ls -al
+    total 16
+    drwxrwxr-x 4 aploetz aploetz 4096 Sep  9 14:58 .
+    drwxrwxr-x 4 aploetz aploetz 4096 Sep  9 14:58 ..
+    drwxrwxr-x 2 aploetz aploetz 4096 Sep  9 14:55 1504986577085
+    drwxrwxr-x 2 aploetz aploetz 4096 Sep  9 14:58 truncated-1504987099599-logins_by_user

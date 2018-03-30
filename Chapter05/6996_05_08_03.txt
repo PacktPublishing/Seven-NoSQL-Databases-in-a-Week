@@ -1,0 +1,8 @@
+nodetool status
+
+Datacenter: LakesidePark
+===============
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+-- Address Load Tokens Owns (effective) Host ID Rack
+UN 192.168.0.100 1.33 MiB 256 100.0% 954d394b-f96f-473f-ad23-cbe4fd0672c8 R40

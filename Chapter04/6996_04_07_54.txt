@@ -1,0 +1,2 @@
+python redisSub.py 127.0.0.1 currentHorseBatteryStaple OMG15UBaseball
+1

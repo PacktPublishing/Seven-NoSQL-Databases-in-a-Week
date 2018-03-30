@@ -1,0 +1,3 @@
+strCQL = """ SELECT cluster_name,data_center,listen_address,release_version
+FROM local WHERE key='local'
+"""

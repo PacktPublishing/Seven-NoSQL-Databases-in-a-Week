@@ -1,0 +1,5 @@
+  public void connect(String node, String pwd) {
+    redisConn = new Jedis(node);
+    redisConn.auth(pwd);
+  }
+

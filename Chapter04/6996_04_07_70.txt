@@ -1,0 +1,4 @@
+    public void capList(String strKey, int intLen) {
+    	 redisConn.ltrim(strKey, 0, intLen - 1);
+    }
+

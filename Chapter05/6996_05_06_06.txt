@@ -1,0 +1,5 @@
+sudo mkdir /local
+sudo chown $USER:$USER /local
+cd /local
+mv ~/Downloads/apache-cassandra-3.10-bin.tar.gz .
+

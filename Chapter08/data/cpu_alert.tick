@@ -1,0 +1,6 @@
+stream
+      |from()
+         .measurement('cpu')
+      |alert()
+      .crit(lambda: "usage_idle" < 100)
+      .log('/home/bwu/examples/alerts.log')

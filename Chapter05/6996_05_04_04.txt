@@ -1,0 +1,13 @@
+aploetz@cqlsh:packt> SELECT token(user_id), user_id, login_datetime 
+                     FROM logins_by_user
+                     WHERE user_id='aploetz';
+
+ system.token(user_id) | user_id | login_datetime
+-----------------------+---------+---------------------------------
+  -1472930629430174260 | aploetz | 2017-06-03 14:04:55.000000+0000
+  -1472930629430174260 | aploetz | 2017-06-02 18:23:11.000000+0000
+  -1472930629430174260 | aploetz | 2017-06-01 17:53:28.000000+0000
+  -1472930629430174260 | aploetz | 2017-06-01 17:36:01.000000+0000
+
+(4 rows)
+

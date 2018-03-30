@@ -1,0 +1,1 @@
+src/redis-cli -a currentHorseBatteryStaple -n 0

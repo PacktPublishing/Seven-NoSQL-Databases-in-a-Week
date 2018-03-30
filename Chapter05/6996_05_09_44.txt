@@ -1,0 +1,15 @@
+String strSELECT = "SELECT * " 
+    + "FROM packt.logins_by_user WHERE user_id=? " 
+    + "LIMIT 3"; 
+PreparedStatement pSStatement = session.prepare(strSELECT); 
+BoundStatement bSStatement = new BoundStatement(pSStatement); 
+bSStatement.bind(userID); 
+          
+ResultSet rows = conn.query(bSStatement); 
+  for (Row row : rows) { 
+    System.out.println(row.getString("user_id") + " " + 
+      row.getTimestamp("login_datetime") + " " + 
+      row.getString("origin_ip")); 
+  } 
+  conn.close(); 
+} 

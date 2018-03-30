@@ -1,0 +1,4 @@
+strSELECT = """
+SELECT * FROM logins_by_user WHERE user_id=? LIMIT 3;
+"""
+pSELECTStatement = session.prepare(strSELECT);

@@ -1,0 +1,9 @@
+#!/usr/bin/python
+from redis import StrictRedis
+import sys
+if len(sys.argv) < 4:
+ print "Please enter a valid hostname, password, and channel."
+ exit(len(sys.argv))
+hostname=sys.argv[1]
+password=sys.argv[2]
+channel=sys.argv[3]

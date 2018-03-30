@@ -1,0 +1,9 @@
+queryRelationship = """MATCH (m:Mission {name:'ISS-51/52 (Soyuz)'})
+  <-[:FLEW_ON]-(a:Astronaut) RETURN m,a;"""
+resultSet = session.run(queryRelationship)
+
+for result in resultSet:
+  print("%s flew on %s" % (result["a"]["name"],result["m"]["name"]))
+
+session.close()
+

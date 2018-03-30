@@ -1,0 +1,9 @@
+ //read login list   
+List<String> logins = conn.getList(key);
+	 ;
+//output login list  
+ 
+    for (String user : logins) {
+      System.out.println(user);
+    }
+

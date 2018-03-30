@@ -1,0 +1,6 @@
+import redis.clients.jedis.Jedis;
+
+
+public class RedisConnection {
+  private Jedis redisConn;
+

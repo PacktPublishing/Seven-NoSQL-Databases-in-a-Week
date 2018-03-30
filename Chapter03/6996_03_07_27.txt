@@ -1,0 +1,10 @@
+createRelationship = """MATCH (m:Mission),(a:Astronaut)
+    WHERE m.name={mname} AND a.name={aname}
+    CREATE (a)-[:FLEW_ON]->(m);"""
+session.run(createRelationship,{"mname":"ISS-51/52 (Soyuz)",
+  "aname":"Jack D. Fischer"})
+session.run(createRelationship,{"mname":"ISS-51/52 (Soyuz)",
+  "aname":"Peggy A. Whitson"})
+session.run(createRelationship,{"mname":"ISS-51/52 (Soyuz)",
+  "aname":"Randolph J. Bresnik"})
+

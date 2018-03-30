@@ -1,0 +1,2 @@
+src/redis-cli --intrinsic-latency 30
+

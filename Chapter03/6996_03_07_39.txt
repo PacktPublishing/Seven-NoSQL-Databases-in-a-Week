@@ -1,0 +1,10 @@
+    while (resultSet.hasNext()) {
+      Record result = resultSet.next();
+      System.out.println( result.get("m.title")
+        + " from " + result.get("l.name"));
+    }
+
+    session.close();
+  }
+}
+

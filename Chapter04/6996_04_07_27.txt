@@ -1,0 +1,7 @@
+src/redis-cli -a currentHorseBatteryStaple --eval getJoustScores.lua
+1) "Dad"
+2) "58150"
+3) "Connor"
+4) "48850"
+5) "Toria"
+6) "29910"

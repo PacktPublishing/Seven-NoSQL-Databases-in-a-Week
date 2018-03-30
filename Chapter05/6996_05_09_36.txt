@@ -1,0 +1,8 @@
+  public ResultSet query(String strQuery) { 
+    return session.execute(strQuery); 
+  } 
+    
+  public void close() { 
+    cluster.close(); 
+  } 
+}

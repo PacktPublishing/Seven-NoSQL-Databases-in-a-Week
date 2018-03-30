@@ -1,0 +1,4 @@
+driver = GraphDatabase.driver("bolt://" + hostname + ":7687",
+  auth=basic_auth(username,password))
+session = driver.session()
+

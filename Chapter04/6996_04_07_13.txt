@@ -1,0 +1,6 @@
+1) "message"
+2) "greeting"
+3) "Hello world!"
+1) "message"
+2) "greeting"
+3) "Hello world from pub/sub!"

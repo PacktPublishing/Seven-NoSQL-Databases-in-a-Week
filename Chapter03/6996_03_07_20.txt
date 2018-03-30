@@ -1,0 +1,3 @@
+createLanguage = "CREATE (:Language {name:{name},version:{ver}});"
+session.run(createLanguage,{"name":"Python","ver":"2.7.13"})
+

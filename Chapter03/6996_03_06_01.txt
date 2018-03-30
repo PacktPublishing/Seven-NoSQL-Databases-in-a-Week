@@ -1,0 +1,4 @@
+sudo mkdir /local
+sudo chown $USER:$USER /local
+cd /local
+mv ~/Downloads/neo4j-community-3.3.3-unix.tar.gz .

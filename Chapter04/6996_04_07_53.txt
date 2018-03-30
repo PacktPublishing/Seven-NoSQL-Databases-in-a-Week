@@ -1,0 +1,7 @@
+for message in channels.listen():
+ if message['data']=='END':
+ break
+ else:
+ print message['data']
+channels.unsubscribe(channel)
+print "Unsubscribed"
