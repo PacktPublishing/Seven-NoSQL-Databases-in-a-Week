@@ -14,16 +14,24 @@ All of the code is organized into folders according to the chapter number. For e
 The code will look like the following:
 
 var params = {
-    TableName: 'person',
-    Item: { 
-        PersonID: 101,
-        FirstName : "John",
-        LastName : "Smith",
-        Age : 27,
-        Email : "john.smith@co.in"
-    }
-};
 
+    TableName: 'person',
+    
+    Item: { 
+    
+        PersonID: 101,
+        
+        FirstName : "John",
+        
+        LastName : "Smith",
+        
+        Age : 27,
+        
+        Email : "john.smith@co.in"
+        
+    }
+    
+};
 
 
 ## Related Products
